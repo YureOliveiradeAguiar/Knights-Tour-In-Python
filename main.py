@@ -1,6 +1,6 @@
-n = int(input("Insira o valor n da matriz n por n: "))
-start_x = int(input(f"Insira a linha inicial (1 a {n}): ")) - 1
-start_y = int(input(f"Insira a coluna inicial (1 a {n}): ")) - 1
+n = int(input("Enter the value n for the n by n matrix: "))
+start_x = int(input(f"Enter the starting row (1 to {n}): ")) - 1
+start_y = int(input(f"Enter the starting column (1 to {n}): ")) - 1
 movimentos = [(2, 1), (1, 2), (-1, 2), (-2, 1),
     (-2, -1), (-1, -2), (1, -2), (2, -1)]
 
